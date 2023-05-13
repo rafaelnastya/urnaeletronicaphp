@@ -1,0 +1,72 @@
+/*o posicionamento dos elementos podem variar de resolução para resolução (ficará desorganizado ou até mesmo um por cima do outro)*/
+#cr
+{
+    background-color: #ff600f; 
+    color: black; 
+    font-size: 15px; 
+    width: 100px; 
+    height: 70px;
+    position: relative;
+    right: 50px;
+} 
+#wh
+{
+    background-color: #fff; 
+    color: black; 
+    font-size: 15px; 
+    width: 100px; 
+    height: 70px;
+    position: relative;
+    right: 50px;
+} 
+
+h1{
+    position: absolute;
+    max-width: 100px;
+}
+button
+{
+    color: white; 
+    background-color: black; 
+    width: 90px; 
+    height: 70px; 
+    font-size: 30px;
+    right: 150rem;
+}
+
+#urna
+{
+    position: fixed;
+    max-width: 500px;
+    text-align: center;
+    top: 200px;
+    left: 500px;
+    
+}
+
+table, th, td 
+{
+    border: 1px solid black;
+}
+    
+    
+th, td
+{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+}
+th
+{
+    font-weight: bold;
+}
+    
+tr:nth-child(even) 
+{
+    background-color: #ff600f;
+}
+tr:hover:nth-child(1n + 2) 
+{
+    background-color: #008000;
+    color: #fff;
+}
